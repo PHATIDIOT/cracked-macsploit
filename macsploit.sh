@@ -80,6 +80,7 @@ main() {
     echo -e "Done."
 
     echo -e "Install Complete! Developed by Nexus42!"
+    echo -e "free by jimbobo_0 on roblox"
     exit
 }
 

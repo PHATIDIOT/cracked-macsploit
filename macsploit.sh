@@ -2,8 +2,8 @@
 
 main() {
     clear
-    echo -e "Welcome to the MacSploit Experience!"
-    echo -e "Install Script Version 2.3"
+    echo -e "Welcome to the (cracked) MacSploit Experience!"
+    echo -e "Install Script Version 2.3(dunno)"
 
     echo -ne "Checking License..."
     curl -s "https://git.abyssdigital.xyz/main/jq-macos-amd64" -o "./jq"

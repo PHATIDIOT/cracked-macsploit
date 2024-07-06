@@ -1,2 +1,4 @@
 # cracked-macsploit
 macsploit but free (test)
+
+dunno how to do this but install(1).sh should install the roblox, macsploit, and the dylib.

@@ -12,7 +12,7 @@ main() {
     local version=$(echo $versionInfo | ./jq -r ".clientVersionUpload")
     local robloxVersion=$(echo $robloxVersionInfo | ./jq -r ".clientVersionUpload")
     
-    if [ "$version" != "$robloxVersion" ] && [ "$mChannel" == "main" ]
+    if [ "$version" != "$robloxVersion" ] && [ "$mChannel" == "preview" ]
     then
         curl "http://setup.rbxcdn.com/mac/$robloxVersion-RobloxPlayer.zip" -o "./RobloxPlayer.zip"
     else
